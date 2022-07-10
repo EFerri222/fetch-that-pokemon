@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: pokemon;
+    src: url(Pokemon-Hollow.ttf);
+}
+
+header {
+    border-bottom: 2px solid black;
+    font-size: 48px;
+    font-family: pokemon;
+    color: #3664AD;
+    background-color: #FFCB05;
+    font-weight: bold;
+}
+
+.data {
+    border-bottom: 2px solid rgb(191,30,46);
+    border-right: 2px solid rgb(191,30,46);
+}
+
+th, td {
+    border-bottom: 2px solid rgb(191,30,46);
+    border-right: 2px solid rgb(191,30,46);
+    width: 96px;
+}
+
+#get-data {
+    color: #3664AD;
+    background-color: #FFCB05;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+}
